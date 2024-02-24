@@ -1,0 +1,318 @@
+/* .container {
+  width: 100%;
+  margin-top: 25vh;
+}
+.form_container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+.get_in_touch_form_conatiner h3 {
+  color: #1d212b;
+}
+.get_in_touch_form_conatiner form {
+  margin: 1rem;
+  padding: 1rem;
+}
+.get_in_touch_form_conatiner h1 {
+  padding: 1rem;
+  text-align: left;
+  margin: 1.5rem;
+}
+.form_input_class {
+  width: 400px;
+  height: 30px;
+  padding: 0.1rem;
+  margin: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #e8e9ea;
+  font-size: large;
+}
+.select_availability {
+  width: 400px;
+  height: 30px;
+}
+.form_button {
+  width: 400px;
+  height: 40px;
+  background-color: #d01f23;
+  font-size: large;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+}
+
+.consulatation {
+  width: 50%;
+  height: 80vh;
+  background-color: #1d212b;
+}
+.get_in_touch_red_box {
+  background-color: #ff0032;
+  width: 50%;
+  height: 50vh;
+  margin-top: 100px;
+}
+.get_in_touch_red_box h1 {
+  font-weight: 600;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.get_in_touch_btn {
+  background-color: #ff0032;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+.get_in_touch_btn:hover {
+  font-size: large;
+}
+.consulatation_form {
+  padding: 2rem;
+  background-color: #ff0032;
+  text-align: left;
+}
+.consulatation_form form input {
+  background-color: #ff0032;
+  text-align: left;
+  align-items: left;
+  color: #e6cece;
+  color: black;
+}
+.consulatation_form select {
+  background-color: #ff0032;
+  text-align: left;
+  align-items: left;
+  color: #e8e9ea;
+}
+.form_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.consulatation_form h1 {
+  color: white;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.consultation_btn {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #c7c7ca;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_container {
+    display: inline-block;
+    width: 100%;
+  }
+  .get_in_touch_form_conatiner h1 {
+    margin: auto;
+    text-align: center;
+  }
+  .consulatation {
+    width: 100%;
+  }
+  .consulatation .get_in_touch_red_box {
+    margin: auto;
+    width: 70%;
+  }
+} */
+
+.container {
+  width: 100%;
+}
+.form_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: green; */
+  margin-top: 1vh;
+}
+.get_in_touch_form_conatiner h3 {
+  color: #1d212b;
+}
+
+.get_in_touch_form_conatiner {
+  align-items: center;
+  text-align: center;
+  /* background-color: green; */
+  padding: 20px;
+}
+.get_in_touch_form_conatiner h1 {
+  padding: 1rem 0;
+  text-align: left;
+  /* background-color: red; */
+}
+
+.form_input_class {
+  width: 400px;
+  height: 30px;
+  /* padding: 0.1rem; */
+  /* margin: 0.5rem; */
+  padding: 0.1rem;
+  margin: 0.2rem;
+  border: none;
+  border-bottom: 1px solid #e8e9ea;
+  font-size: large;
+}
+.select_availability {
+  /* width: 400px;
+  height: 30px; */
+  width: 100%;
+}
+.form_button {
+  width: 400px;
+  height: 40px;
+  background-color: #d01f23;
+  font-size: large;
+  /* padding: 10px; */
+  margin-top: 10px;
+  border: none;
+  color: white;
+}
+
+.consulatation {
+  width: 50%;
+  /* height: 80vh; */
+  background-color: #1d212b;
+}
+.get_in_touch_red_box {
+  background-color: #ff0032;
+  width: 50%;
+  height: 50vh;
+  margin-top: 100px;
+}
+.get_in_touch_red_box h1 {
+  font-weight: 600;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.get_in_touch_btn {
+  background-color: #ff0032;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+.get_in_touch_btn:hover {
+  font-size: large;
+}
+.consulatation_form {
+  padding: 2rem;
+  background-color: #ff0032;
+  text-align: left;
+  /* height: 100vh; */
+}
+.consulatation_form form input {
+  background-color: #ff0032;
+  text-align: left;
+  align-items: left;
+  color: #e6cece;
+  color: black;
+}
+.consulatation_form select {
+  background-color: #ff0032;
+  text-align: left;
+  align-items: left;
+  color: #e8e9ea;
+}
+.form_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.consulatation_form h1 {
+  color: white;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.consultation_btn {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #c7c7ca;
+}
+
+@media only screen and (max-width: 600px) {
+  .form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .consulatation {
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+  }
+  .get_in_touch_red_box {
+    background-color: #ff0032;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    text-align: center;
+  }
+  .consulatation_form form input {
+    background-color: #ff0032;
+    text-align: left;
+    align-items: left;
+    color: #e6cece;
+    color: black;
+    /* background-color: yellow; */
+    width: 100%;
+  }
+  .consulatation_form select {
+    background-color: #ff0032;
+    text-align: left;
+    align-items: left;
+    color: #e8e9ea;
+    width: 100%;
+  }
+  .consultation_btn {
+    width: 80%;
+  }
+  .get_in_touch_form_conatiner h1 {
+    text-align: center;
+  }
+  .form_button {
+    width: 80%;
+  }
+  .form_input_class {
+    width: 350px;
+    height: 40px;
+    padding: 0.1rem;
+    margin: 0.2rem;
+    border: none;
+    border-bottom: 1px solid #e8e9ea;
+    font-size: large;
+  }
+}
